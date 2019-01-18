@@ -321,7 +321,7 @@ class ClientFlowLoginControllerTest extends TestCase {
 			'core',
 			'403',
 			[
-				'file' => 'State token does not match',
+				'message' => 'State token does not match',
 			],
 			'guest'
 		);
